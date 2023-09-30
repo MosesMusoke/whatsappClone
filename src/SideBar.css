@@ -1,0 +1,79 @@
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+
+}
+
+.sideBarHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.sideBarHeaderRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.sideBarHeaderRight > .MuiSvgIcon-root {
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
+
+.sideBarSearch {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 39px;
+    padding: 10px;
+}
+
+.sideBarSearchContainer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.sideBarSearchContainer > input {
+    border: none;
+    margin-left: 10px;
+    outline: none;
+}
+
+.sideBarSearchContainer > .MuiSvgIcon-root {
+    color: gray;
+    padding: 10px;
+}
+
+.sideBarChats {
+    background-color: white;
+    flex: 1;
+    overflow: auto;
+}
+
+.sideBarChart {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(241, 236, 236);
+}
+
+.sideBarChart:hover {
+    background-color: #ebebeb;
+}
+
+.sideBarChartInfo > h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sideBarChartInfo {
+    margin-left: 15px;
+}
